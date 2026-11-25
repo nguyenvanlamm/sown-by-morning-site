@@ -1,0 +1,91 @@
+# Sown by Morning
+
+> A calm puzzle game for iPhone on an old railway line: plant a few seeds, say goodnight, and see how each wild plant spreads while you sleep. Coming soon to the App Store.
+
+Source: https://nguyenvanlamm.github.io/sown-by-morning-site/ — the full text of the site's three pages.
+
+## Home
+
+URL: https://nguyenvanlamm.github.io/sown-by-morning-site/
+
+### Sow a few seeds. Wake to a garden.
+
+A calm puzzle game on an old railway line: plant a few seeds, say goodnight, and see how each wild plant spreads while you sleep.
+
+Coming soon to the App Store.
+
+### Why play
+
+- **Every plant has its own way.** Strawberries run into the next bed, touch-me-not pods fling a seed two beds away, and ants carry violets to their nest. Learn the habits, then plan around them.
+- **A few minutes a day.** 60 free stretches across four stations, and a new daily stretch every morning. There is no timer and no energy to wait for.
+- **Quiet by design.** No ads, no account, no tracking. It plays offline, and nothing you do leaves your phone.
+
+### How a night works
+
+1. **Sow and water.** Choose where your few seeds go, and spend the day's pours.
+2. **Say goodnight.** Overnight, watered seeds sprout and blooming plants spread.
+3. **Read the morning.** See what grew, then fill every stake before the season turns.
+
+Optional purchases: the Viaduct Line (24 more stretches), the Porter's Trolley (helpers) and the Station Patron (cosmetic).
+
+## Support
+
+URL: https://nguyenvanlamm.github.io/sown-by-morning-site/support.html
+
+A calm railway garden puzzle for iPhone.
+
+### Contact
+
+Write to lamnv260398@gmail.com. Please say which device you play on and, if it is about a stretch, its number.
+
+### How to play
+
+Each stretch of the old line is a puzzle. During the day, sow a few seeds and water them with the day's pours, then tap *Goodnight*. Overnight, watered seeds sprout and each blooming plant spreads in its own way. Fill every stake before the season turns; finish by the par night for three stars. A tagged stake only counts with the plant on its tag. Tap the tin in your hand to read its plant's habit again.
+
+### Helpers
+
+*Glimpse* shows tonight before you say goodnight, *Reverse* takes you back one morning, and *Rain* wakes every sleeping seed. You earn one the first time you finish a stretch with three stars, and one for each daily stretch.
+
+### Purchases
+
+The free line (60 stretches) and the daily stretch are free. In the Booking office you can buy the Viaduct Line (24 more stretches with bramble and mint), the Porter's Trolley (5 Glimpse, 5 Reverse and 5 Rain) or the Station Patron (a copper can, amber lamps and a blackbird; no gameplay). Bought something before, or on another device with the same store account? Open *Settings → Restore purchases*, or the Restore line in the Booking office.
+
+### Progress
+
+Progress is saved on the device only. It is not synced between devices, and it is removed if you delete the app.
+
+## Privacy Policy
+
+URL: https://nguyenvanlamm.github.io/sown-by-morning-site/privacy.html
+
+Last updated 25 November 2026.
+
+Sown by Morning is a puzzle game. It does not ask who you are, and it does not sell any data about you.
+
+### What stays on your device
+
+- Your progress: the stars you earned on each stretch, the daily stretches you finished, and how many helpers (Glimpse, Reverse, Rain) you hold.
+- Your settings: whether sound is on.
+- Whether you have bought the Viaduct Line, the Porter's Trolley or the Station Patron, and the store's transaction ids, so a purchase is never given twice.
+
+This is stored on your device only. Deleting the app removes it.
+
+### What we do not do
+
+- No account or sign-in.
+- No advertising and no ad networks.
+- No analytics, crash reporting or tracking of any kind.
+- No access to your contacts, photos, location, camera or microphone.
+- The game makes no network requests of its own; it talks only to the App Store, for purchases.
+
+### Purchases
+
+The 60 stretches of the free line and the daily stretch are free. Purchases are handled entirely by the App Store under its own privacy policy. We receive no payment details; the game only learns from the store which purchases exist.
+
+### Children
+
+The game collects no personal information from anyone, including children.
+
+### Changes
+
+If this policy changes, the new version will be posted on this page with a new date.

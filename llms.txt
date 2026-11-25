@@ -1,0 +1,20 @@
+# Sown by Morning
+
+> Sown by Morning is a calm puzzle game for iPhone set on an old, disused railway line: plant a few seeds, say goodnight, and see how each wild plant spreads while you sleep. Coming soon to the App Store.
+
+- Each stretch of the line is a puzzle. During the day you sow a few seeds and water them with the day's pours, then tap Goodnight. Overnight, watered seeds sprout and each blooming plant spreads in its own way. Fill every stake before the season turns; finish by the par night for three stars.
+- Every plant has its own habit: strawberries run into the next bed, touch-me-not pods fling a seed two beds away, and ants carry violets to their nest.
+- 60 free stretches across four stations, plus a new daily stretch every morning. No timer and no energy to wait for.
+- Helpers: Glimpse (shows tonight before you say goodnight), Reverse (back one morning) and Rain (wakes every sleeping seed).
+- Optional purchases: the Viaduct Line (24 more stretches with bramble and mint), the Porter's Trolley (5 Glimpse, 5 Reverse and 5 Rain) and the Station Patron (cosmetic: a copper can, amber lamps and a blackbird; no gameplay). Restore purchases is in Settings.
+- No ads, no account, no analytics or tracking. It plays offline; progress stays on the device.
+
+## Pages
+
+- [Home](https://nguyenvanlamm.github.io/sown-by-morning-site/): what the game is and how a night works
+- [Support](https://nguyenvanlamm.github.io/sown-by-morning-site/support.html): contact, how to play, helpers, purchases and restoring, progress
+- [Privacy Policy](https://nguyenvanlamm.github.io/sown-by-morning-site/privacy.html): what the game stores on the device and what it never collects
+
+## Optional
+
+- [Full text](https://nguyenvanlamm.github.io/sown-by-morning-site/llms-full.txt): all three pages as one Markdown file

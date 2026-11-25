@@ -8,15 +8,34 @@
 <link rel="canonical" href="https://nguyenvanlamm.github.io/sown-by-morning-site/">
 <link rel="icon" href="assets/icon-180.png">
 <link rel="apple-touch-icon" href="assets/icon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sown by Morning">
+<meta property="og:url" content="https://nguyenvanlamm.github.io/sown-by-morning-site/">
 <meta property="og:title" content="Sown by Morning">
 <meta property="og:description" content="Sow a few seeds. Wake to a garden. A calm puzzle game for iPhone.">
 <meta property="og:image" content="https://nguyenvanlamm.github.io/sown-by-morning-site/assets/icon-180.png">
+<meta property="og:image:alt" content="Sown by Morning app icon">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sown by Morning">
+<meta name="twitter:description" content="Sow a few seeds. Wake to a garden. A calm puzzle game for iPhone.">
+<meta name="twitter:image" content="https://nguyenvanlamm.github.io/sown-by-morning-site/assets/icon-180.png">
+<meta name="twitter:image:alt" content="Sown by Morning app icon">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","@id":"https://nguyenvanlamm.github.io/sown-by-morning-site/#website","url":"https://nguyenvanlamm.github.io/sown-by-morning-site/","name":"Sown by Morning","description":"Landing page, support and privacy policy of Sown by Morning, a calm railway garden puzzle game for iPhone.","inLanguage":"en","about":{"@id":"https://nguyenvanlamm.github.io/sown-by-morning-site/#game"}},
+{"@type":"WebPage","@id":"https://nguyenvanlamm.github.io/sown-by-morning-site/#webpage","url":"https://nguyenvanlamm.github.io/sown-by-morning-site/","name":"Sown by Morning · a calm railway garden puzzle for iPhone","isPartOf":{"@id":"https://nguyenvanlamm.github.io/sown-by-morning-site/#website"},"about":{"@id":"https://nguyenvanlamm.github.io/sown-by-morning-site/#game"},"inLanguage":"en"},
+{"@type":["VideoGame","MobileApplication"],"@id":"https://nguyenvanlamm.github.io/sown-by-morning-site/#game","name":"Sown by Morning","description":"A calm puzzle game on an old railway line: plant a few seeds, say goodnight, and see how each wild plant spreads while you sleep. 60 free stretches across four stations and a new daily stretch every morning. No ads, no account, no tracking; it plays offline.","url":"https://nguyenvanlamm.github.io/sown-by-morning-site/","image":"https://nguyenvanlamm.github.io/sown-by-morning-site/assets/icon-180.png","screenshot":"https://nguyenvanlamm.github.io/sown-by-morning-site/assets/screen-stretch.png","genre":"Puzzle","gamePlatform":"iPhone","applicationCategory":"GameApplication","operatingSystem":"iOS","inLanguage":"en"}
+]}
+</script>
 <style>
   :root { --night: #1C2F38; --deep: #16262E; --cream: #F1E6C8; --moon: #C9D3D6; --brass: #D4AE5C; --tape: #EFE4C6; --ink: #1C2F38; }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--night); color: var(--cream); font: 18px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
   a { color: var(--brass); }
-  main { max-width: 980px; margin: 0 auto; padding: 56px 20px 72px; }
+  /* Keyboard focus in the existing brass accent: 6.6:1 on the night background. */
+  a:focus-visible { outline: 2px solid var(--brass); outline-offset: 3px; border-radius: 2px; }
+  /* .wrap carries the old main box so <main> and <footer> can be sibling landmarks with no visual change. */
+  .wrap { max-width: 980px; margin: 0 auto; padding: 56px 20px 72px; }
   .hero { display: grid; grid-template-columns: 1fr; gap: 40px; align-items: center; }
   @media (min-width: 820px) { .hero { grid-template-columns: 1.2fr .8fr; } }
   .brand { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
@@ -24,7 +43,7 @@
   .brand span { letter-spacing: .18em; text-transform: uppercase; font-weight: 600; font-size: 15px; color: var(--moon); }
   h1 { font-size: clamp(36px, 6vw, 58px); line-height: 1.08; letter-spacing: .01em; margin: 0 0 18px; text-wrap: balance; }
   .sub { font-size: 20px; color: var(--moon); margin: 0 0 30px; max-width: 34em; text-wrap: pretty; }
-  .plate { display: inline-block; background: var(--brass); color: var(--ink); font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 15px; padding: 14px 22px; border-radius: 4px; box-shadow: 0 3px 0 #8A6A2C; }
+  .plate { display: inline-block; margin: 0; background: var(--brass); color: var(--ink); font-weight: 700; letter-spacing: .1em; text-transform: uppercase; font-size: 15px; padding: 14px 22px; border-radius: 4px; box-shadow: 0 3px 0 #8A6A2C; }
   .shot img { width: 100%; max-width: 330px; display: block; margin: 0 auto; border-radius: 28px; box-shadow: 0 18px 50px rgba(0, 0, 0, .45); }
   h2 { font-size: 15px; letter-spacing: .2em; text-transform: uppercase; color: var(--brass); margin: 72px 0 22px; }
   .grid { display: grid; gap: 22px; grid-template-columns: 1fr; }
@@ -36,18 +55,21 @@
   ol.steps li { background: var(--tape); color: var(--ink); padding: 12px 16px; border-radius: 2px; }
   ol.steps b { letter-spacing: .08em; text-transform: uppercase; font-size: 14px; margin-right: 8px; }
   .close { text-align: center; margin-top: 80px; }
-  .close p { font-size: 24px; margin: 0 0 20px; }
-  footer { border-top: 1px solid #2C434E; margin-top: 72px; padding-top: 22px; font-size: 15px; color: var(--moon); display: flex; gap: 22px; flex-wrap: wrap; }
+  .close p:not(.plate) { font-size: 24px; margin: 0 0 20px; }
+  footer { border-top: 1px solid #2C434E; margin-top: 72px; padding-top: 12px; font-size: 15px; color: var(--moon); display: flex; align-items: center; gap: 0 22px; flex-wrap: wrap; }
+  /* 44 px tall hit area for iPhone; padding-top above drops by the same 10 px so the text stays put. */
+  footer a { display: inline-flex; align-items: center; min-height: 44px; }
 </style>
 </head>
 <body>
+<div class="wrap">
 <main>
   <section class="hero">
     <div>
-      <div class="brand"><img src="assets/icon-180.png" alt="Sown by Morning app icon" width="56" height="56"><span>Sown by Morning</span></div>
+      <div class="brand"><img src="assets/icon-180.png" alt="" width="56" height="56"><span>Sown by Morning</span></div>
       <h1>Sow a few seeds. Wake to a garden.</h1>
       <p class="sub">A calm puzzle game on an old railway line: plant a few seeds, say goodnight, and see how each wild plant spreads while you sleep.</p>
-      <span class="plate">Coming soon to the App Store</span>
+      <p class="plate">Coming soon to the App Store</p>
     </div>
     <div class="shot"><img src="assets/screen-stretch.png" alt="A stretch of the line in play: beds, stakes, a violet's ants on their way to the nest" width="390" height="844"></div>
   </section>
@@ -67,15 +89,16 @@
   </ol>
 
   <section class="close">
-    <p>Plant your first stretch of line.</p>
-    <span class="plate">Coming soon to the App Store</span>
+    <p>Plant your first stretch of line when the game launches.</p>
+    <p class="plate">Coming soon to the App Store</p>
   </section>
-
-  <footer>
-    <a href="support.html">Support</a>
-    <a href="privacy.html">Privacy Policy</a>
-    <span>Optional purchases: the Viaduct Line (24 more stretches), the Porter's Trolley (helpers) and the Station Patron (cosmetic).</span>
-  </footer>
 </main>
+
+<footer>
+  <a href="support.html">Support</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <span>Optional purchases: the Viaduct Line (24 more stretches), the Porter's Trolley (helpers) and the Station Patron (cosmetic).</span>
+</footer>
+</div>
 </body>
 </html>
